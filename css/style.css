@@ -63,7 +63,11 @@ h1{
     margin-left: auto;
     margin-right: auto;
 }
-
+#Picture{
+    /* Move left and make it 10% of the container */
+width: 20px;
+height: 10px;
+}
 /* Image div */
 #image{
     margin-left: 450px;
@@ -72,7 +76,7 @@ h1{
     display: block;
 }
 #image3{
-    margin-left: 450px;
+    margin-left: 0px;
     margin-right: auto;
     padding: 5px;
     display: block;
@@ -85,7 +89,8 @@ h1{
     /* Change the size to be automatic which is reflected on the block before it (image) */
     width: auto;
     margin-left: auto;
-
     }
+
+
 
 }
